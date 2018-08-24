@@ -9,6 +9,6 @@ for character in message:
     newCharacter = alphabet[newPosition]
     newMessage+=newCharacter
   else:
-    newmessage+=character
+    newMessage+=character
 print('your new message is:',newMessage)
     
