@@ -16,8 +16,7 @@ dict2={0:'A',1:'B',2:'C',3:'D',4:'E',
 
 
 #This function generates the key in
-#a cyclic manner until it's length isi'nt
-#equal to the length of original text
+
 def generate_key(message,key):
 	x=len(message)
 	i=0
@@ -30,8 +29,7 @@ def generate_key(message,key):
 		i+=1
 	return key
 
-#This function returns the encrypted text
-#generated with the help of the key
+
 def cipherText(message,key_new):
 	cipher_text=''
 	i=0
@@ -44,8 +42,6 @@ def cipherText(message,key_new):
 			cipher_text+=dict2[x]
 	return cipher_text
 
-#This function decrypts the encrypted text
-#and returns the original text
 def originalText(cipher_text,key_new):
 	or_txt=''
 	i=0
