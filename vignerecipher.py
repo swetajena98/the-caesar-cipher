@@ -1,7 +1,7 @@
 
 
 
-# Dictionary to lookup the index of alphabets
+
 dict1 = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4,
          'F': 5, 'G': 6, 'H': 7, 'I': 8, 'J': 9,
          'K': 10, 'L': 11, 'M': 12, 'N': 13, 'O': 14,
@@ -63,6 +63,6 @@ def main():
 	print("Encrypted Text = "+cipher_text)
 	print("Original Text = "+original_text)
 
-#Executes the main function
+
 if __name__ == '__main__':
 	main()
